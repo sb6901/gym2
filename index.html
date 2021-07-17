@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url("https://wallpapercave.com/wp/wp2356158.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+        }
+
+        .left {
+            position: absolute;
+            left: 34px;
+            top: 7px;
+            display: inline-block;
+            text-align: center;
+            margin: auto;
+        }
+
+        .left img {
+            width: 60px;
+            filter: invert(100%);
+        }
+
+        .nav-menu {
+            background: #3a2f2f73;
+            display: block;
+            width: 44%;
+            margin: 10px auto;
+            border-radius: 50px;
+        }
+
+        .nav-menu ul {
+            display: inline-block;
+            list-style: none;
+            color: azure;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 18px;
+        }
+
+        .nav-menu li {
+            display: inline-block;
+            padding: 24px 29px;
+            font-weight: bolder;
+        }
+
+        .nav-menu li:hover {
+            border-radius: 50px;
+            background-color: blanchedalmond;
+            color: black;
+        }
+
+        .button {
+            position: absolute;
+            right: 34px;
+            top: 34px;
+            display: inline-block;
+        }
+
+        .button button {
+            font-family: monospace;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 10px 12px;
+            border: 2px solid grey;
+            border-radius: 15px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .button button:hover {
+            background-color: rgb(53, 4, 4);
+        }
+
+        /* Form Part */
+        #form {
+            display: inline-block;
+            position: absolute;
+            top: 54px;
+            right: 54px;
+            text-align: center;
+            align-items: center;
+        }
+
+        form {
+            background: #3a2f2f73;
+            display: inline-block;
+            position: absolute;
+            top: 125px;
+            right: 8px;
+            border: 5px solid white;
+            border-radius: 25px;
+            padding: 100px;
+            margin: 45px;
+        }
+
+        .hey {
+            width: 350px;
+            padding: 5px;
+            margin: 3px;
+            font-size: larger;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        .he {
+            font-size: x-large;
+            font-weight: bolder;
+            padding: 5px;
+            margin: 3px;
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            padding: 10px 12px;
+            border: 2px solid grey;
+            border-radius: 15px;
+            font-size: 15px;
+            cursor: pointer;
+            width: 360px;
+        }
+
+        .btn:hover {
+            background-color: wheat;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="left">
+        <img src="512.png" alt="">
+        <h3>Heavy fitness</h3>
+    </div>
+    <div class="nav-menu">
+        <ul>
+            <li class="nav-items">Home</li>
+            <li class="nav-items">About Us</li>
+            <li class="nav-items">Fitness Calculator</li>
+            <li class="nav-items">Contact us</li>
+        </ul>
+    </div>
+
+    <div class="button">
+        <button>Call us Now</button>
+        <button>Email us</button>
+    </div>
+
+    <div id="form">
+        <form action="">
+            <span class="he">Join the best gym of Delhi now</span>
+            <input class="hey" type="text" placeholder="Enter Your Name">
+            <input class="hey" type="text" placeholder="Enter Your Age">
+            <input class="hey" type="text" placeholder="Enter Your Gender">
+            <input class="hey" type="text" placeholder="Enter Your Locality">
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
